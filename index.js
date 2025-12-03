@@ -1,5 +1,5 @@
 const burgers = ["Hamburger", "Cheeseburger"];
-let featuredDrink = "Strawberry Milkshake"
+let featuredDrink = "Strawberry Milkshake";
 
 
 function addBurger() {
@@ -9,11 +9,9 @@ function addBurger() {
 
 if (true) {
     const anotherNewBurger = "Maple Bacon Burger";
-    burgers.push(anotherNewBurger)
+    burgers.push(anotherNewBurger);
 }
 
 function changeFeaturedDrink() {
     featuredDrink = "The JavaShake";
 }
-
-console.log(burgers)
